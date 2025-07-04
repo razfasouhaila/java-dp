@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class TypeReservationDao {
 
-    private static TypeReservation[] types = {new TypeReservation("TH", 150.0, 15.0), new TypeReservation("CI", 10.0, 10.0)};
+    private static TypeReservation[] types = {new TypeReservation("TH", 150.0, 15.0), new TypeReservation("CI", 10.9, 0.0)};
 
     public TypeReservation extraireTypeReservation(String type) {
 

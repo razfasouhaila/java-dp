@@ -38,7 +38,7 @@ public class ReservationServiceTest {
 
         assertNotNull(reservation);
         assertEquals(4, reservation.getNbPlaces());
-        assertEquals(36.0, reservation.getTotal());
+        assertEquals(43.6, reservation.getTotal());
 
     }
 }
